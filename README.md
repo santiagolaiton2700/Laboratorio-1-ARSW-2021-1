@@ -21,9 +21,9 @@
 	2. Inicie los tres hilos con 'start()'.
 	3. Ejecute y revise la salida por pantalla. 
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?.
-	En la ejecucion del proyecto nos dimos cuenta que la diferencia fundamental de start() y run() es que run() se ejecuta de una manera mas iterativa. Es 	decir,
-	vemos que en el output los numeros se ejecutan en orden, mientras de al utilizar el metodo start() se estan verdaderamente ejecutando los hilos de
-	manera simultanea, lo cual es evidenciado por el output, en donde las secuencias de numeros se ven mas "desordenadas".
+	En la ejecución del proyecto nos dimos cuenta que la diferencia fundamental de start() y run() es que run() se ejecuta de una manera más iterativa. Es 	decir,
+	vemos que en el output los números se ejecutan en orden, mientras de al utilizar el método start() se están verdaderamente ejecutando los hilos de
+	manera simultánea, lo cual es evidenciado por el output, en donde las secuencias de números se ven más "desordenadas".
 
 **Parte II - Ejercicio Black List Search**
 
