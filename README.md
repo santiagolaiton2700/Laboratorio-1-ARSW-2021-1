@@ -20,7 +20,7 @@
 	1. Cree 3 hilos de tipo CountThread, asignándole al primero el intervalo [0..99], al segundo [99..199], y al tercero [200..299].
 	2. Inicie los tres hilos con 'start()'.
 	3. Ejecute y revise la salida por pantalla. 
-	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?.  
+	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?
 	En la ejecución del proyecto nos dimos cuenta que la diferencia fundamental de start() y run() es que run() se ejecuta de una manera más iterativa. Es 	decir,
 	vemos que en el output los números se ejecutan en orden, mientras de al utilizar el método start() se están verdaderamente ejecutando los hilos de
 	manera simultánea, lo cual es evidenciado por el output, en donde las secuencias de números se ven más "desordenadas".
