@@ -17,9 +17,9 @@ public class CountThreadsMain {
         Thread hilo2 =new Thread(new CountThread(99,199));
         Thread hilo3 =new Thread(new CountThread(200,299));
 
-        hilo1.run();
-        hilo2.run();
-        hilo3.run();
+        hilo1.start();
+        hilo2.start();
+        hilo3.start();
 
     }
     
