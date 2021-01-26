@@ -112,16 +112,21 @@ Con lo anterior, y con los tiempos de ejecución dados, haga una gráfica de tie
 
 	![](img/ahmdahls.png), donde _S(n)_ es el mejoramiento teórico del desempeño, _P_ la fracción paralelizable del algoritmo, y _n_ el número de hilos, a mayor _n_, mayor debería ser dicha mejora. Por qué el mejor desempeño no se logra con los 500 hilos?, cómo se compara este desempeño cuando se usan 200?. 
 
-*A simple vista se puede pensar que al asignar 500 hilos al programa resolveria el problema mucho mas rapido, pero lo cierto es que hacerlo con 200 es mas eficiente  
+* A simple vista se puede pensar que al asignar 500 hilos al programa resolveria el problema mucho mas rapido, pero lo cierto es que hacerlo con 200 es mas eficiente  
 debido a que el computador en el que se hicieron las pruebas cuenta con 4 nucleos de procesamiento, al tener solamente 4 nucleos el mismo debe hacer un esfuerzo mayor En el proceso de "interleaving". Al hacer el experimento con 200 nucleos nos ahorramos capacidad de procesamiento en este proceso, ya que el "interleaving" solo se  
 lleva acabo con 200 hilos.
 
 
 2. Cómo se comporta la solución usando tantos hilos de procesamiento como núcleos comparado con el resultado de usar el doble de éste?.  
 Tras haber realziado el experimento registramos que con 4 hilos (el numero de nucleos del computador en el que se hizo el experimento) le tomo al programa 13 segundos  
-*Encontrar las 5 ocurrencias de la IP en las listas negras que fueron dadas, mientras que con 8 hilos, la misma tarea duro 2 segundos. 
+* Encontrar las 5 ocurrencias de la IP en las listas negras que fueron dadas, mientras que con 8 hilos, la misma tarea duro 2 segundos. 
 
 3. De acuerdo con lo anterior, si para este problema en lugar de 100 hilos en una sola CPU se pudiera usar 1 hilo en cada una de 100 máquinas hipotéticas, la ley de Amdahls se aplicaría mejor?. Si en lugar de esto se usaran c hilos en 100/c máquinas distribuidas (siendo c es el número de núcleos de dichas máquinas), se mejoraría?. Explique su respuesta.  
 
-*La ley de Amdahls nos dice que a mayor cantidad de procesadores se consigue una mayor velocidad de ejecucion al paralelizar los procesos hasta cierto punto. En el ejemplo: propuesto vemos el caso hipotetico en el que en 100 maquinas se ejecuta el mismo experimento que en un solo procesador manejando 100 hilos. La respuesta es que si el procesador  
-*Ejecutando los hilos paralelamente se podria alcanzar mayor rendimiento que en las 100 maquinas, ya que estas maquinas no estarian aprovechando al maximo el beneficio del paralelismo.  
+* La ley de Amdahls nos dice que a mayor cantidad de procesadores se consigue una mayor velocidad de ejecucion al paralelizar los procesos hasta cierto punto. En el ejemplo: propuesto vemos el caso hipotetico en el que en 100 maquinas se ejecuta el mismo experimento que en un solo procesador manejando 100 hilos. La respuesta es que si el procesador  
+* Ejecutando los hilos paralelamente se podria alcanzar mayor rendimiento que en las 100 maquinas, ya que estas maquinas no estarian aprovechando al maximo el beneficio del paralelismo.  
+
+# Integrantes:
+>
+* Weisnner Rodriguez James Allan
+* Santiago Agustin Laiton Cubides
