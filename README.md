@@ -81,10 +81,10 @@ Salida del experimento con 1 hilo:
 Grafica del experimento con 1 hilo: 
 
 Grafica del experimento con 4 hilos:  
-![](img/4_hilo grafica.PNG)  
+![](img/4_hilografica.PNG)  
 
 Grafica del experimento con 8 hilos:  
-![](img/8_hilo grafica.PNG)  
+![](img/8_hilografica.png)  
 
 Salida del experimento con 50 hilos: 
 ![](img/50hilos.PNG)  
