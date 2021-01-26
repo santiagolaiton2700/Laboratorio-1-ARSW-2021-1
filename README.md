@@ -25,11 +25,11 @@
 	vemos que en el output los números se ejecutan en orden, mientras de al utilizar el método start() se están verdaderamente ejecutando los hilos de
 	manera simultánea, lo cual es evidenciado por el output, en donde las secuencias de números se ven más "desordenadas".
 	
-**Salida con el metodo run para cada uno de los hilos que crearon**	
+**Salida con el metodo run para cada uno de los hilos que se crearon**	
 
 ![](img/Run.png)
 
-**Salida con el metodo start para cada uno de los hilos que crearon**
+**Salida con el metodo start para cada uno de los hilos que se crearon**
 
 ![](img/start.png)
 
