@@ -72,23 +72,25 @@ A partir de lo anterior, implemente la siguiente secuencia de experimentos para 
 
 Salida del experimento con 1 hilo:  
 
-![](img/1_hilo.png)  
+![](img/1_hilo.PNG)  
+
+
 
 
 
 Grafica del experimento con 1 hilo: 
 
 Grafica del experimento con 4 hilos:  
-![](img/4_hilo grafica.png)  
+![](img/4_hilo grafica.PNG)  
 
 Grafica del experimento con 8 hilos:  
-![](img/8_hilo grafica.png)  
+![](img/8_hilo grafica.PNG)  
 
 Salida del experimento con 50 hilos: 
-![](img/50hilos.png)  
+![](img/50hilos.PNG)  
 
 Salida del experimento con 100 hilos:
-![](img/100hilos.png)  
+![](img/100hilos.PNG)  
 
 2. Tantos hilos como núcleos de procesamiento (haga que el programa determine esto haciendo uso del [API Runtime](https://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html)).
 3. Tantos hilos como el doble de núcleos de procesamiento.
